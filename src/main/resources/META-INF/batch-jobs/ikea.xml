@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="ikea" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+  <step id="unzip" next="ikeaChunk">
+    <batchlet ref="unzipBatchlet">
+    </batchlet>
+  </step>
+  <step id="ikeaChunk">
+    <chunk>
+      <reader ref="ikeaItemReader"/>
+      <processor ref="ikeaItemProcessor"/>
+      <writer ref="ikeaItemWriter"/>
+    </chunk>
+  </step>
+</job>
