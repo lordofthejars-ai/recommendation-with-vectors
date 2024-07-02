@@ -50,6 +50,10 @@
             <artifactId>quarkus-hibernate-orm-panache</artifactId>
         </dependency>
         <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-openapi</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-vector</artifactId>
             <version>6.4.7.Final</version> <!-- Sets to Hibernate version used by Quarkus -->
@@ -64,34 +68,14 @@
             <artifactId>quarkus-jberet</artifactId>
             <version>2.2.0</version>
         </dependency>
-
         <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>21</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-swing</artifactId>
-            <version>21</version>
-        </dependency>
-        <dependency>
-            <groupId>io.quarkiverse.fx</groupId>
-            <artifactId>quarkus-fx</artifactId>
-            <version>0.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>eu.hansolo.fx</groupId>
-            <artifactId>charts</artifactId>
-            <version>21.0.11</version>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.17.2</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-rest</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
