@@ -12,7 +12,7 @@ import jakarta.ws.rs.core.MediaType;
 import java.io.IOException;
 import java.util.Arrays;
 
-@Path("/product")
+@Path("/vector")
 public class VectorResource {
 
     @Inject
@@ -40,7 +40,7 @@ public class VectorResource {
         System.out.println(Arrays.toString(ageContent.vector()));
         System.out.println("*********************");
 
-        System.out.println("******* Welcome *******");
+        System.out.println("**************");
         final Embedding howareContent = howare.content();
 
         System.out.println(Arrays.toString(howareContent.vector()));
