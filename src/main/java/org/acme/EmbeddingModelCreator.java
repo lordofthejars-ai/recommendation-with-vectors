@@ -3,8 +3,10 @@ package org.acme;
 
 import dev.langchain4j.classification.EmbeddingModelTextClassifier;
 import dev.langchain4j.classification.TextClassifier;
-import dev.langchain4j.model.embedding.AllMiniLmL6V2QuantizedEmbeddingModelFactory;
+
 import dev.langchain4j.model.embedding.EmbeddingModel;
+
+import dev.langchain4j.model.embedding.onnx.allminilml6v2q.AllMiniLmL6V2QuantizedEmbeddingModelFactory;
 import io.quarkus.runtime.Startup;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Produces;
